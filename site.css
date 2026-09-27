@@ -57,6 +57,9 @@ header.site{display:flex;align-items:center;justify-content:space-between;gap:16
 footer.site{border-top:1px solid var(--border);padding-block:24px 40px;display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;color:var(--muted);font-size:14px}
 footer.site nav{display:flex;gap:18px}
 
+.hero-min{grid-template-columns:1fr !important;gap:28px;padding-block:64px 88px;max-width:760px}
+.bars-min{height:56px;max-width:360px}
+
 /* Privacy */
 .doc{max-width:72ch;padding-block:24px 72px}
 .doc h1{font-family:var(--display);font-variation-settings:var(--fraunces-axes);font-weight:600;font-size:clamp(32px,5vw,46px);line-height:1.1;letter-spacing:-.008em;margin:8px 0 12px;text-wrap:balance}
